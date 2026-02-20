@@ -30,10 +30,42 @@ A Pokemon-like sprite battle game with C++ core battle logic and Python scripts 
 
 ## 🚀 Quick Start
 
+### One-Command Build & Run (Linux/macOS)
+
 ```bash
 # Clone the repository
-git clone https://github.com/polymer1215/Pokemon-game.git
-cd Pokemon-game
+git clone https://github.com/cloong666/Pokemon-game-of-polymer.git
+cd Pokemon-game-of-polymer
+
+# Build and run immediately
+./build.sh --run
+
+# Or just build (executable will be at build/pokemon_battle)
+./build.sh
+./build/pokemon_battle
+```
+
+### One-Command Build & Run (Windows)
+
+```bat
+REM Clone the repository
+git clone https://github.com/cloong666/Pokemon-game-of-polymer.git
+cd Pokemon-game-of-polymer
+
+REM Build and run immediately
+build.bat --run
+
+REM Or just build (executable will be at build\Release\pokemon_battle.exe)
+build.bat
+build\Release\pokemon_battle.exe
+```
+
+### Manual Build
+
+```bash
+# Clone the repository
+git clone https://github.com/cloong666/Pokemon-game-of-polymer.git
+cd Pokemon-game-of-polymer
 
 # Build
 mkdir build && cd build
@@ -100,8 +132,8 @@ sudo apt-get update
 sudo apt-get install build-essential cmake python3-dev
 
 # Clone and build
-git clone https://github.com/polymer1215/Pokemon-game.git
-cd Pokemon-game
+git clone https://github.com/cloong666/Pokemon-game-of-polymer.git
+cd Pokemon-game-of-polymer
 mkdir build && cd build
 cmake ..
 cmake --build .
@@ -117,8 +149,8 @@ cmake --build .
 brew install cmake python3
 
 # Clone and build
-git clone https://github.com/polymer1215/Pokemon-game.git
-cd Pokemon-game
+git clone https://github.com/cloong666/Pokemon-game-of-polymer.git
+cd Pokemon-game-of-polymer
 mkdir build && cd build
 cmake ..
 cmake --build .
@@ -134,8 +166,8 @@ cmake --build .
 # Make sure Python development libraries are included
 
 # Clone repository
-git clone https://github.com/polymer1215/Pokemon-game.git
-cd Pokemon-game
+git clone https://github.com/cloong666/Pokemon-game-of-polymer.git
+cd Pokemon-game-of-polymer
 
 # Create build directory
 mkdir build
@@ -157,8 +189,8 @@ Release\pokemon_battle.exe
 # Prerequisites: Install MinGW-w64 and Python 3.6+
 
 # Clone and build
-git clone https://github.com/polymer1215/Pokemon-game.git
-cd Pokemon-game
+git clone https://github.com/cloong666/Pokemon-game-of-polymer.git
+cd Pokemon-game-of-polymer
 mkdir build && cd build
 cmake .. -G "MinGW Makefiles"
 cmake --build .
